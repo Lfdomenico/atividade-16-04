@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Site com Menu e Conteúdo</title>
+  <style>
+    
+    #centroPagina {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+    }
+
+    .imagens {
+      width: 100px;
+      height: 100px;
+    }
+
+    #imagemEclipse {
+      width: 150px;
+    }
+
+    #imagemAndroidStudio{
+         width: 150px; 
+    } 
+
+    .IDEsTitulos{
+        font-size: 1.5em;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Menu com imagens -->
+  <nav>
+    <div id="centroPagina">
+      <div class="item">
+        <h3>Visual Studio Code</h3>
+        <a href="https://code.visualstudio.com/" target="_blank">
+          <img class="imagens" src="VsCode.png" alt="Visual Studio Code">
+        </a>
+      </div>
+
+      <div class="item">
+        <h3>Code Blocks</h3>
+        <a href="https://www.codeblocks.org/" target="_blank">
+          <img class="imagens" src="CodeBlocks.jpg" id="imagemCodeBlocks" alt="Code Blocks">
+        </a>
+      </div>
+
+      <div class="item">
+        <h3>Pycharm</h3>
+        <a href="https://www.jetbrains.com/pycharm/" target="_blank">
+          <img class="imagens" src="Pycharm.jpg" alt="Pycharm">
+        </a>
+      </div>
+
+      <div class="item">
+        <h3>Eclipse</h3>
+        <a href="https://eclipseide.org/" target="_blank">
+          <img class="imagens" id="imagemEclipse" src="Eclipse.jpg" alt="Eclipse">
+        </a>
+      </div>
+
+      <div class="item">
+        <h3>NetBeans</h3>
+        <a href="https://netbeans.apache.org/front/main/index.html" target="_blank">
+          <img class="imagens" src="NetBeans.avif" alt="NetBeans">
+        </a>
+      </div>
+
+      <div class="item">
+        <h3>Atom</h3>
+        <a href="https://atom-editor.cc/" target="_blank">
+          <img class="imagens" src="Atom.png" alt="Atom">
+        </a>
+      </div>
+
+      <div class="item">
+        <h3> Android Studio </h3>
+        <a href="https://developer.android.com/studio?hl=pt-br" target="_blank">
+          <img class="imagens" src="AndroidStudio.webp" alt="Android Studio" id="imagemAndroidStudio">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <main>
+    <ul class="IDEsTitulos"> <b>IDEs gerais</b></ul>
+    <li><b>Visual Studio Code:</b> Tem suporte para C#, C++, Python, JavaScript, HTML, CSS, JSON, Visual Basic, TypeScript, PHP, entre outras.</li>
+    <br>
+    <li><b>NetBeans:</b> IDE para Java, PHP, HTML5, C/C++, entre outras.</li>
+    <br>
+    <li><b>Atom:</b> Suporta C, C++, HTML, CSS, JavaScript, TypeScript, Ruby, e outras.</li>
+    <br>
+    <li><b>Eclipse: </b>Tem suporte para Java, PHP, C, C++, e mais.</li>
+    
+    <ul class="IDEsTitulos"><b> IDEs Python</b></ul>
+    <li><b>Pycharm</b></li>
+    <br>
+    <li><b>Thonny</b></li>
+    <br>
+    <li><b>Spyder</b></li>
+
+    <ul class="IDEsTitulos"><b> IDEs C/C++</b></ul>
+    <li><b>Code Blocks</b></li>
+    <br>
+    <li><b>Falcon</b></li>
+    <br>
+    <li><b>Dev-C++</b></li>
+
+    <ul class="IDEsTitulos"><b> IDEs Mobile</b></ul>
+    <li><b>Android Studio</b></li>
+    <br>
+    <li><b>Xcode</b></li>
+
+    </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
